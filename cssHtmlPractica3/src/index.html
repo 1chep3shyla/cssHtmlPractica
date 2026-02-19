@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио Евгения Олейникова</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-dot" aria-hidden="true"></span>
+                <span>EVGEHA&nbsp;CREATING</span>
+            </div>
+            <nav aria-label="Навигация по сайту">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li class="nav-dropdown">
+                        <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-controls="miniGamesMenu">
+                            Мини-игры
+                        </button>
+                        <ul class="nav-dropdown-menu" id="miniGamesMenu">
+                            <li><a href="#mini-games" class="nav-dropdown-link">Все игры</a></li>
+                            <li><a href="#game-reaction" class="nav-dropdown-link">Реакция</a></li>
+                            <li><a href="#game-clicker" class="nav-dropdown-link">Кликер</a></li>
+                            <li><a href="#game-adventure" class="nav-dropdown-link">Генератор приключений</a></li>
+                            <li><a href="#game-guess" class="nav-dropdown-link">Угадай число</a></li>
+                            <li><a href="#game-tictactoe" class="nav-dropdown-link">Крестики-нолики</a></li>
+                            <li><a href="#game-labyrinth" class="nav-dropdown-link">Лабиринт</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contacts" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Секция 1: Главная -->
+        <section id="home" class="hero">
+            <div class="hero-inner">
+                <div>
+                    <h1 class="hero-title">
+                        Привет, я <span>Евгений Олейников</span>
+                    </h1>
+                    <p class="hero-text">
+                        Я фронтенд‑разработчик и UI‑дизайнер. Люблю, когда все круто и чётко
+                    </p>
+                    <p class="hero-text">
+                        Экспериментирую с кодом, а иногда не только с ним:)
+                    </p>
+
+                    <p class="hero-roles-line">Мои роли</p>
+                    <div class="hero-roles"
+                         aria-label="Frontend разработчик, UI дизайнер, Студент">
+                        Frontend разработчик | UI дизайнер | Студент
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#contacts" class="btn-primary">Связаться со мной</a>
+                        <a href="#projects" class="btn-secondary">Смотреть проекты</a>
+                    </div>
+
+                    <div class="hero-meta" aria-hidden="true">
+                        <span>Основа: HTML · CSS · JavaScript</span>
+                        <span>Сильная сторона: C#</span>
+                    </div>
+                </div>
+
+                <div class="hero-avatar-wrap">
+                    <div class="hero-avatar-border"></div>
+                    <div class="hero-avatar">
+                        <img src="./pic/deadinside.jpg"
+                             alt="Изображение Евгения" />
+                        <div class="hero-tag">
+                            <span class="hero-tag-dot"></span>
+                            <span>Открыт к новым проектам</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 2: Навыки -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">Навыки</h2>
+            <p class="section-subtitle">
+                Стек, с которым чаще всего работаю. Уровень условный, но отражает
+                мои текущие приоритеты в изучении технологий.
+            </p>
+
+            <div class="skills-grid">
+                <!-- Hard Skills -->
+                <article class="card" aria-label="Hard Skills">
+                    <h3>Hard Skills</h3>
+                    <p class="muted">Технические навыки и инструменты разработки.</p>
+
+                    <div class="skill-row" aria-label="Python 70%">
+                        <div class="skill-label-line">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span style="width: 70%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-row" aria-label="JavaScript 10%">
+                        <div class="skill-label-line">
+                            <span>JavaScript</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span style="width: 10%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-row" aria-label="Java 60%">
+                        <div class="skill-label-line">
+                            <span>Java</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span style="width: 60%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-row" aria-label="C++ 40%">
+                        <div class="skill-label-line">
+                            <span>C++</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span style="width: 40%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-row" aria-label="C 50%">
+                        <div class="skill-label-line">
+                            <span>C</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <span style="width: 50%"></span>
+                        </div>
+                    </div>
+
+                    <p class="muted" style="margin-top: 12px; margin-bottom: 4px">
+                        Инструменты
+                    </p>
+                    <div>
+                        <span class="badge">Git</span>
+                        <span class="badge">MySQL</span>
+                        <span class="badge">Qt</span>
+                        <span class="badge">Linux</span>
+                    </div>
+
+                    <p class="muted" style="margin-top: 12px; margin-bottom: 4px">
+                        Другое
+                    </p>
+                    <ul class="list-compact">
+                        <li>Объектно-ориентированное программирование</li>
+                        <li>Паттерны проектирования</li>
+                        <li>Разработка настольных приложений (Qt, wxWidgets)</li>
+                        <li>Разработка Android‑приложений</li>
+                        <li>HTTP и основы клиент‑серверного взаимодействия</li>
+                    </ul>
+                </article>
+
+                <!-- Soft Skills -->
+                <article class="card" aria-label="Soft Skills">
+                    <h3>Soft Skills</h3>
+                    <p class="muted">
+                        Личные качества, помогающие в командной работе и обучении.
+                    </p>
+                    <ul class="list-compact">
+                        <li>Командная работа</li>
+                        <li>Критическое мышление</li>
+                        <li>Коммуникабельность</li>
+                        <li>Самоорганизация и тайм‑менеджмент</li>
+                        <li>Готовность к обратной связи</li>
+                    </ul>
+                </article>
+
+                <!-- Languages -->
+                <article class="card" aria-label="Languages">
+                    <h3>Languages</h3>
+                    <p class="muted">Языки общения и обучения.</p>
+                    <ul class="list-compact">
+                        <li>Английский — Intermediate (B1–B2)</li>
+                        <li>Казахский — родной</li>
+                        <li>Русский — свободно</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Секция 3: Образование -->
+        <section id="education">
+            <h2 class="section-title">Образование</h2>
+            <p class="section-subtitle">
+                Формальное обучение и ключевые этапы, которые помогли мне
+                сформироваться как разработчику.
+            </p>
+
+            <div class="timeline" aria-label="Хронология образования">
+                <article class="timeline-item">
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div class="timeline-item-header">
+                        <div class="timeline-title">
+                            ПГУ
+                        </div>
+                        <div class="timeline-period">2022 — Настоящее время</div>
+                    </div>
+                    <div class="timeline-degree">
+                        Бакалавриат · Computer Science
+                    </div>
+                    <p class="muted">
+                        Участвую в учебных проектах, изучаю алгоритмы, структуры данных,
+                        архитектуру приложений и основы UX. Параллельно развиваю
+                        фронтенд‑скиллы через пет‑проекты.
+                    </p>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot" aria-hidden="true"></div>
+                    <div class="timeline-item-header">
+                        <div class="timeline-title">
+                            Гимназия №9
+                        </div>
+                        <div class="timeline-period">2011 — 2022</div>
+                    </div>
+                    <div class="timeline-degree">
+                        Среднее образование
+                    </div>
+                    <p class="muted">
+                        Учёба с уклоном в математику и информатику. Участие в школьных
+                        проектах и олимпиадах, первые программы и аккуратная база по
+                        алгоритмам.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Секция 4: Достижения -->
+        <section id="achievements">
+            <h2 class="section-title">Достижения</h2>
+            <p class="section-subtitle">
+                Небольшая подборка активностей, которые особенно повлияли на мой опыт
+                и мотивацию.
+            </p>
+
+            <div class="achievements-grid">
+                <article class="achievement">
+                    <div class="achievement-badge">Хакатон</div>
+                    <h3 class="achievement-title">
+                        1 место в университетском хакатоне
+                    </h3>
+                    <div class="achievement-date">Март 2023</div>
+                    <p class="muted">
+                        Разрабатывала прототип веб‑панели для отслеживания учебной
+                        нагрузки студентов. В команде отвечала за интерфейс и
+                        интеграцию с API.
+                    </p>
+                </article>
+
+                <article class="achievement">
+                    <div class="achievement-badge">Сертификация</div>
+                    <h3 class="achievement-title">
+                        Сертификат по основам веб‑разработки
+                    </h3>
+                    <div class="achievement-date">Ноябрь 2022</div>
+                    <p class="muted">
+                        Онлайн‑курс (например, Coursera/Udemy) по HTML, CSS и базовому
+                        JavaScript. Выполнила финальный проект — адаптивный лендинг.
+                    </p>
+                </article>
+
+                <article class="achievement">
+                    <div class="achievement-badge">Олимпиада</div>
+                    <h3 class="achievement-title">
+                        Участие в олимпиадах по программированию
+                    </h3>
+                    <div class="achievement-date">2020 — 2022</div>
+                    <p class="muted">
+                        Решала алгоритмические задачи на C++ и Python. Это помогло
+                        лучше понимать сложность алгоритмов и аккуратнее писать код.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Секция 5: Проекты -->
+        <section id="projects">
+            <h2 class="section-title">Проекты</h2>
+            <p class="section-subtitle">
+                Учебные и пет‑проекты, на которых я тренируюсь и пробую новые
+                технологии.
+            </p>
+
+            <div class="projects-grid">
+                <!-- Проект 1 (c реальными ссылками) -->
+                <article class="project-card">
+                    <div class="project-preview" aria-hidden="true">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+                             alt="Скриншот проекта: панель аналитики" />
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Dashboard для учебных задач</h3>
+                        <p class="project-text">
+                            Небольшое SPA‑приложение c аналитикой по задачам: статус,
+                            дедлайны и прогресс по темам. Проект помогает лучше
+                            организовывать учебу.
+                        </p>
+                        <p class="project-text">
+                            На этом проекте я потренировалась работать с компонентами,
+                            состоянием и простыми REST‑запросами.
+                        </p>
+                        <p class="project-tech">
+                            Технологии: React, Node.js (mock API), CSS Modules
+                        </p>
+                        <div class="project-links">
+                            <a class="link-pill"
+                               href="https://github.com/username/dashboard-project"
+                               target="_blank"
+                               rel="noopener noreferrer">GitHub репозиторий</a>
+                            <a class="link-pill"
+                               href="https://username.github.io/dashboard-project"
+                               target="_blank"
+                               rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Проект 2 -->
+                <article class="project-card">
+                    <div class="project-preview" aria-hidden="true">
+                        <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1200&q=80"
+                             alt="Скриншот проекта: лендинг" />
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Лендинг курса по программированию</h3>
+                        <p class="project-text">
+                            Адаптивная посадочная страница с блоками программы, отзывами и
+                            формой регистрации. Уделяла внимание типографике и сетке.
+                        </p>
+                        <p class="project-tech">Технологии: HTML, CSS, немного JS</p>
+                        <div class="project-links">
+                            <span class="link-pill">В разработке</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Проект 3 -->
+                <article class="project-card">
+                    <div class="project-preview" aria-hidden="true">
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80"
+                             alt="Скриншот проекта: заметки" />
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Приложение‑заметки для студента</h3>
+                        <p class="project-text">
+                            Простой интерфейс для хранения конспектов и идей по
+                            дисциплинам. Фильтрация по тегам, закрепление важных записей.
+                        </p>
+                        <p class="project-tech">
+                            Технологии: JavaScript, LocalStorage, минимальный backend
+                        </p>
+                        <div class="project-links">
+                            <span class="link-pill">GitHub позже</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Секция 5.5: Мини-игры -->
+        <section id="mini-games">
+            <h2 class="section-title">Мини-игры</h2>
+            <p class="section-subtitle">
+                Небольшие интерактивные игры на HTML, CSS и JavaScript.
+            </p>
+
+            <div class="mini-games-grid">
+                <!-- Игра 1: Реакция -->
+                <article id="game-reaction" class="game-card" aria-label="Игра на скорость реакции">
+                    <header class="game-card-header">
+                        <h3 class="game-title">Реакция</h3>
+                        <span class="game-badge">30 сек</span>
+                    </header>
+
+                    <div class="game-stats">
+                        <div class="game-stat"><span class="game-stat-label">Попадания</span><span id="reactionHits" class="game-stat-value">0</span></div>
+                        <div class="game-stat"><span class="game-stat-label">Среднее</span><span id="reactionAvg" class="game-stat-value">—</span></div>
+                        <div class="game-stat"><span class="game-stat-label">Время</span><span id="reactionTime" class="game-stat-value">30</span></div>
+                    </div>
+
+                    <div id="reactionArea" class="reaction-area" aria-live="polite">
+                        <button id="reactionButton" type="button" class="btn-primary reaction-button" disabled>Жми!</button>
+                    </div>
+
+                    <div class="game-actions">
+                        <button id="reactionStart" type="button" class="btn-secondary">Старт</button>
+                        <button id="reactionReset" type="button" class="btn-secondary" disabled>Сбросить</button>
+                    </div>
+                    <div id="reactionStatus" class="game-status" role="status" aria-live="polite"></div>
+                </article>
+
+                <!-- Игра 2: Кликер -->
+                <article id="game-clicker" class="game-card" aria-label="Игра Кликер">
+                    <header class="game-card-header">
+                        <h3 class="game-title">Кликер</h3>
+                        <span class="game-badge">30 сек</span>
+                    </header>
+
+                    <div class="game-stats">
+                        <div class="game-stat"><span class="game-stat-label">Очки</span><span id="clickerScore" class="game-stat-value">0</span></div>
+                        <div class="game-stat"><span class="game-stat-label">Время</span><span id="clickerTime" class="game-stat-value">30</span></div>
+                        <div class="game-stat"><span class="game-stat-label">Рекорд</span><span id="clickerBest" class="game-stat-value">0</span></div>
+                    </div>
+
+                    <div class="game-actions">
+                        <button id="clickerStart" type="button" class="btn-secondary">Старт</button>
+                        <button id="clickerButton" type="button" class="btn-primary" disabled>Клик!</button>
+                        <button id="clickerReset" type="button" class="btn-secondary" disabled>Сбросить</button>
+                    </div>
+                    <div id="clickerStatus" class="game-status" role="status" aria-live="polite"></div>
+                </article>
+
+                <!-- Игра 3: Генератор приключений -->
+                <article id="game-adventure" class="game-card" aria-label="Генератор приключений">
+                    <header class="game-card-header">
+                        <h3 class="game-title">Генератор приключений</h3>
+                        <span class="game-badge">рандом</span>
+                    </header>
+
+                    <div class="game-output" id="adventureOutput">
+                        Нажмите «Сгенерировать», чтобы начать.
+                    </div>
+
+                    <div class="game-actions">
+                        <button id="adventureGenerate" type="button" class="btn-primary">Сгенерировать</button>
+                        <button id="adventureSave" type="button" class="btn-secondary" disabled>Сохранить</button>
+                        <button id="adventureClear" type="button" class="btn-secondary">Очистить сохранённые</button>
+                    </div>
+                    <div class="game-sub">
+                        <strong>Сохранённые:</strong>
+                        <ul id="adventureSaved" class="game-list"></ul>
+                    </div>
+                </article>
+
+                <!-- Игра 4: Угадай число -->
+                <article id="game-guess" class="game-card" aria-label="Игра Угадай число">
+                    <header class="game-card-header">
+                        <h3 class="game-title">Угадай число</h3>
+                        <span class="game-badge">1–100</span>
+                    </header>
+
+                    <div class="game-output" id="guessHint">
+                        Я загадал число от 1 до 100. Попробуйте угадать.
+                    </div>
+
+                    <div class="game-actions">
+                        <div class="guess-input">
+                            <label class="sr-only" for="guessInput">Ваше число</label>
+                            <input id="guessInput" type="number" min="1" max="100" inputmode="numeric" placeholder="Введите число" />
+                        </div>
+                        <button id="guessSubmit" type="button" class="btn-primary">Проверить</button>
+                        <button id="guessRestart" type="button" class="btn-secondary">Сначала</button>
+                    </div>
+
+                    <div class="game-sub">
+                        <span class="muted">Попытки: </span><span id="guessAttempts" class="game-attempts">0</span>
+                    </div>
+                </article>
+
+                <!-- Игра 5: Крестики-нолики -->
+                <article id="game-tictactoe" class="game-card" aria-label="Игра Крестики-нолики">
+                    <header class="game-card-header">
+                        <h3 class="game-title">Крестики-нолики</h3>
+                        <span class="game-badge">3 × 3</span>
+                    </header>
+
+                    <div class="tic-status" id="ticStatus">Ход X</div>
+                    <div class="tic-score">
+                        <span>Победы X: <strong id="ticScoreX">0</strong></span>
+                        <span>Победы O: <strong id="ticScoreO">0</strong></span>
+                    </div>
+
+                    <div id="ticGrid" class="tic-grid" role="grid" aria-label="Игровое поле 3 на 3">
+                        <button class="tic-cell" type="button" data-index="0" aria-label="Ячейка 1"></button>
+                        <button class="tic-cell" type="button" data-index="1" aria-label="Ячейка 2"></button>
+                        <button class="tic-cell" type="button" data-index="2" aria-label="Ячейка 3"></button>
+                        <button class="tic-cell" type="button" data-index="3" aria-label="Ячейка 4"></button>
+                        <button class="tic-cell" type="button" data-index="4" aria-label="Ячейка 5"></button>
+                        <button class="tic-cell" type="button" data-index="5" aria-label="Ячейка 6"></button>
+                        <button class="tic-cell" type="button" data-index="6" aria-label="Ячейка 7"></button>
+                        <button class="tic-cell" type="button" data-index="7" aria-label="Ячейка 8"></button>
+                        <button class="tic-cell" type="button" data-index="8" aria-label="Ячейка 9"></button>
+                    </div>
+
+                    <div class="game-actions">
+                        <button id="ticRestart" type="button" class="btn-secondary">Сначала</button>
+                        <label class="toggle">
+                            <input id="ticVsCpu" type="checkbox" />
+                            Играть с компьютером
+                        </label>
+                    </div>
+                </article>
+
+                <!-- Игра 6: Лабиринт -->
+                <article id="game-labyrinth" class="game-card" aria-label="Игра Лабиринт">
+                    <header class="game-card-header">
+                        <h3 class="game-title">Лабиринт</h3>
+                        <span class="game-badge">стрелки</span>
+                    </header>
+
+                    <div class="labyrinth-meta">
+                        <div>Время: <strong id="labTime">0.0</strong> c</div>
+                        <div id="labStatus" class="game-status">Дойдите до выхода.</div>
+                    </div>
+
+                    <div id="labGrid" class="labyrinth-grid" tabindex="0" aria-label="Лабиринт"></div>
+
+                    <div class="game-actions">
+                        <button id="labStart" type="button" class="btn-primary">Старт</button>
+                        <button id="labRestart" type="button" class="btn-secondary" disabled>Заново</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Секция 6: Контакты -->
+        <section id="contacts">
+            <h2 class="section-title">Контакты</h2>
+            <p class="section-subtitle">
+                Если хотите обсудить совместный проект или просто задать вопрос —
+                заполните форму или напишите в соцсетях.
+            </p>
+
+            <div class="contacts-grid">
+                <!-- Форма -->
+                <article>
+                    <form id="contactForm" novalidate>
+                        <div class="field" id="field-name">
+                            <label for="name">Имя</label>
+                            <input id="name"
+                                   name="name"
+                                   type="text"
+                                   placeholder="Как к вам обращаться?" />
+                            <div class="error-text" data-error-for="name"></div>
+                        </div>
+
+                        <div class="field" id="field-email">
+                            <label for="email">Email</label>
+                            <input id="email"
+                                   name="email"
+                                   type="email"
+                                   inputmode="email"
+                                   placeholder="cheap3shyla@gmail.com" />
+                            <div class="error-text" data-error-for="email"></div>
+                        </div>
+
+                        <div class="field" id="field-message">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message"
+                                      name="message"
+                                      placeholder="Кратко опишите вопрос или идею."></textarea>
+                            <div class="error-text" data-error-for="message"></div>
+                        </div>
+
+                        <button type="submit" class="btn-primary">
+                            Отправить сообщение
+                        </button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </article>
+
+                <!-- Контакты и соцсети -->
+                <article class="contact-details">
+                    <div class="contact-details-item">
+                        <strong>Email:</strong> cheap3shyla@gmail.com
+                    </div>
+                    <div class="contact-details-item">
+                        <strong>Локация:</strong> Павлодар, Казахстан
+                    </div>
+
+                    <div class="contact-details-item" style="margin-top: 12px">
+                        <strong>Социальные платформы:</strong>
+                    </div>
+                    <div class="social-links" aria-label="Социальные сети">
+                        <a href="https://github.com/username"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-chip">
+                            <span class="social-icon" aria-hidden="true"></span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.hackerrank.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-chip">
+                            <span class="social-icon" aria-hidden="true"></span>
+                            <span>HackerRank</span>
+                        </a>
+                        <a href="https://t.me/username"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-chip">
+                            <span class="social-icon" aria-hidden="true"></span>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 · Евгений Олейников · Личное портфолио
+    </footer>
+    <script defer src="./js/main.js"></script>
+</body>
+</html>
